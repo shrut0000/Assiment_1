@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Semantic HTML</title>
+   <style>
+
+       aside {
+           width: 30%;
+           padding-left: 15px;
+           margin-left: 15px;
+           float: right;
+           font-style: italic;
+           background-color: lightgray;
+           color: #000;
+        }
+        main {
+           
+            background-color: lightgray;
+            color: #000;
+        }
+
+        main > h1, p, .browser {
+            margin: 10px;
+            padding: 5px;
+        }
+
+        .browser {
+            background: white;
+        }
+
+    </style>
+</head>
+<body style="background-color:gray; color: aliceblue;">
+    
+    <nav style="text-align: center; background-color:aliceblue;color: #000;">
+        <a href="#" >Home</a> |
+        <a href="#">About</a> |
+        <a href="#">Services</a> |
+        <a href="#">Contact</a>
+        </nav>
+
+
+
+
+        <header style="background-color: bisque; color: #000;">
+            <h1>This is Header</h1>
+            <p>The "header" element represents a container for introductory content or a set of navigational links.</p>
+        </header>
+        
+        <article style="background-color:aqua; color:black;">
+        <h3>This is Article Semantic in HTML</h3>
+        <p>The "article" tag specifies independent, self-contained content. 
+            An article should make sense on its own and it should be possible to distribute it independently
+            from the rest of the site.
+        </p>
+        </article>
+
+
+
+
+        <aside style="background-color: lightslategrey;">
+            <h3>This is Aside Semantic in HTML</h3>
+            <h3>Aside</h3>
+            <p>The "aside" element defines some content aside from the content it is placed in like a sidebar
+                The "aside" content should be indirectly related to the surrounding content.
+            </p>
+        </aside>
+
+
+
+                 
+        <section style="background-color:red; color: aliceblue;">
+            <h3>This is Section Semantic in HTML</h3> 
+            
+            <p>The Section tag defines the section of documents such as chapters, headers, footers, or any other
+              sections.The section tag divides the content into sections and subsections.
+            </p>
+        </section>
+
+
+
+        <main>
+            <h3>This is Main Semantic in HTML</h3> 
+            <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+            <article class="browser">
+              <h3>Microsoft Edge</h3>
+              <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+            </article>
+        </main>
+   
+   
+     
+   
+
+        
+        <footer style="background-color:blueviolet; color: aliceblue; padding: 50px; text-align: center;">
+            <h3>This is footer Semantic in HTML</h3> 
+            <p>Author: Dr.Monil Joshi</p>
+            <p>Author: prof.Manoj Makvana</p>
+            <p><a href="#">mjoshi@gmail.com</a></p>
+            <p><a href="#">manojm@gmail.com</a></p>
+        </footer>
+</body>
+</html>
